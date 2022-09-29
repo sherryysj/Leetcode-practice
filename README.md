@@ -1,10 +1,11 @@
-# Leetcode-practice
+# LeetCode-practice
 
 Personal solutions for LeetCode problems.
 
 ## Catalogue
 
-Problems are categorized by type (Algorithms and Database) or study plan, in each problem, multiple languages are used to solve it, while in each language solution file, multiple solutions implemented by different technique are included.
+Problems are categorized by type (Algorithms and Database) or study plan.
+In each problem, multiple languages are used to solve it, while in each language solution file, multiple solutions implemented by different techniques are included.
 
 ### Algorithms
 
