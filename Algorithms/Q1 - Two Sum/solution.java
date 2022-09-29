@@ -1,6 +1,6 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        // solution 1 - hard search: 55ms, 41.4MB
+        // solution 1 - hard search by nested for loop: 55ms, 41.4MB
         for (int index1 = 0; index1 < nums.length; index1++) {
             for (int index2 = index1 + 1; index2 < nums.length; index2++) {
                 if (nums[index1] + nums[index2] == target) {

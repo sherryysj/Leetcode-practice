@@ -4,7 +4,7 @@
  * @return {number[]}
  */
 var twoSum = function (nums, target) {
-  // solution 1 - hard search: 121ms, 42.4MB
+  // solution 1 - hard search by nested for loop: 121ms, 42.4MB
   for (let index1 = 0; index1 < nums.length; index1++) {
     for (let index2 = index1 + 1; index2 < nums.length; index2++) {
       if (nums[index1] + nums[index2] === target) {
