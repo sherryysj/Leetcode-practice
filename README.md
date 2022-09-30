@@ -9,8 +9,8 @@ In each problem, multiple languages are used to solve it, while in each language
 
 ### Algorithms
 
-Using Java, Python3, C# and Javascript to solve in each problem, with readme file to compare the running time and memory for these languages and different techniques.
+Using **Java**, **Python3**, **C#** and **Javascript** to solve in each problem, with readme file to compare the running time and memory for these languages and different techniques.
 
 ### Database
 
-Using Oracle and MySQL to solve in each problem.
+Using **Oracle** and **MySQL** to solve in each problem.
