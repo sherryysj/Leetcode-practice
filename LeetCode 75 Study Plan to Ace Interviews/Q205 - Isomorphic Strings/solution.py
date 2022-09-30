@@ -1,6 +1,7 @@
-class Solution:
+# solution 1 - hash map by dict: 40ms, 15.3MB
+class Solution1:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        # solution 1 - hash map by dict: 40ms, 15.3MB
+
         if len(s) != len(t):
             return False
         charMap = {}
@@ -14,9 +15,12 @@ class Solution:
                 charMap[s[index]] = t[index]
         return True
 
-        # solution 2 - set and zip: 32ms, 15.4MB
-        # comparing the length of unique char in s and t
-        # as well as the length of unique pair in dict paired by s, t
+
+# solution 2 - set and zip: 32ms, 15.4MB
+# comparing the length of unique char in s and t
+# as well as the length of unique pair in dict paired by s, t
+class Solution2:
+    def isIsomorphic(self, s: str, t: str) -> bool:
         numOfUniqueCharsInS = len(set(s))
         numOfUniqueCharsInT = len(set(t))
         stDict = zip(s, t)
