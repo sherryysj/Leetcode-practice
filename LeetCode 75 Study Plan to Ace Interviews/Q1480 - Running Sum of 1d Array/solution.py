@@ -1,6 +1,6 @@
-class Solution:
+# solution 1: create a new array for sums
+class Solution1:
     def runningSum(self, nums: List[int]) -> List[int]:
-        # solution 1: create a new array for sums
         sums = []
         newSum = 0
         for num in nums:
@@ -8,7 +8,10 @@ class Solution:
             sums.append(newSum)
         return sums
 
-        # solution 2: modify nums directly
+
+# solution 2: modify nums directly
+class Solution2:
+    def runningSum(self, nums: List[int]) -> List[int]:
         for index in range(1, len(nums)):
             nums[index] += nums[index - 1]
         return nums
