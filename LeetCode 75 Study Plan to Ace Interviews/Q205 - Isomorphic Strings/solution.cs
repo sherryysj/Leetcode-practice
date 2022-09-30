@@ -1,6 +1,6 @@
+// solution 1: using hash map by Dictionary
 public class Solution {
     public bool IsIsomorphic(string s, string t) {
-        // solution 1: using hash map by Dictionary
         if (s.Length != t.Length) {
             return false;
         }

@@ -1,6 +1,6 @@
+// solution 1: using hash map by Dictionary
 class Solution {
     public boolean isIsomorphic(String s, String t) {
-        // solution 1: using hash map by Dictionary
         if (s.length() != t.length()) {
             return false;
         }

@@ -1,10 +1,10 @@
+// solution 1: using hash map by Dictionary
 /**
  * @param {string} s
  * @param {string} t
  * @return {boolean}
  */
 var isIsomorphic = function (s, t) {
-  // solution 1: using hash map by Dictionary
   if (s.length !== t.length) {
     return false;
   }
