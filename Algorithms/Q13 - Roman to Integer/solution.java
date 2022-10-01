@@ -1,7 +1,7 @@
 class Solution {
     public int romanToInt(String s) {
         int num = 0;
-        HashMap<Character, Integer> dict = new HashMap <Character, Integer>() {{
+        HashMap<Character, Integer> dict = new HashMap<Character, Integer>() {{
             put('I', 1);
             put('V', 5);
             put('X', 10);
@@ -9,7 +9,6 @@ class Solution {
             put('C', 100);
             put('D', 500);
             put('M', 1000);
-
         }};
         for (int index = 0; index < s.length(); index++) {
             if (index < s.length() - 1 && dict.get(s.charAt(index)) < dict.get(s.charAt(index + 1)) ) {
