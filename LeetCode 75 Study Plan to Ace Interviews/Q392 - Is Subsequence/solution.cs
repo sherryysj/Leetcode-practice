@@ -2,11 +2,11 @@
 //   hard search each char of string s in string t
 //   from the former char's index,
 //   once a char is not found, return false， else return true
-class Solution {
-    public boolean isSubsequence(String s, String t) {
+public class Solution1 {
+    public bool IsSubsequence(string s, string t) {
         int startSearchIndex = 0;
-        for (int i = 0; i < s.length(); i++) {
-            int foundIndex = t.indexOf(s.charAt(i), startSearchIndex);
+        for (int i = 0; i < s.Length; i++) {
+            int foundIndex = t.IndexOf(s[i], startSearchIndex);
             if (foundIndex == -1) {
                 return false;
             } else {
@@ -25,14 +25,14 @@ class Solution {
 //   end loop while one of pointer index out of string length
 //   check whether indexS is equal to the length of stringS
 //   if yes, it means all chars in string s are found in sequence in string t
-class Solution2 {
-    public boolean isSubsequence(String s, String t) {
-        int lengthS = s.length();
-        int lengthT = t.length();
+public class Solution2 {
+    public bool IsSubsequence(string s, string t) {
+        int lengthS = s.Length;
+        int lengthT = t.Length;
         int indexS = 0;
         int indexT = 0;
         while (indexS < lengthS && indexT < lengthT) {
-            if (s.charAt(indexS) == t.charAt(indexT)) {
+            if (s[indexS] == t[indexT]) {
                 indexS += 1;
             }
             indexT += 1;
