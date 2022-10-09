@@ -1,4 +1,4 @@
 /* MySQL */
-/* solution 1: use OR for conditions */
-select name from Customer
-where referee_id != 2 or referee_id is null
+/* solution 1: use NOT IN */
+select name as Customers from Customers
+where id not in (select customerId from orders)
