@@ -1,5 +1,5 @@
 /* MS SQL Server */
-/* solution 1: use AND for conditions */
+/* solution 1: use CASE */
 update salary
 set sex =
     case 
