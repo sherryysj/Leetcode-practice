@@ -4,7 +4,7 @@ Personal solutions for LeetCode problems.
 
 ## Catalogue
 
-Problems are categorized by **type (Algorithms and Database)** or **study plan**, and **problem link** is in each problem's readme file.
+Problems are categorized by **type (Algorithms and Database)**, **study plan** or **Difficulty**, and **problem link** is in each problem's readme file.
 In each problem, **multiple languages** are used to solve it, while in each language solution file, **multiple solutions** implemented by different techniques may be included.
 
 ### Algorithms
